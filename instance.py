@@ -14,13 +14,6 @@ class Instance(object):
 			else:
 				self.listNum.append(float(item))
 
-			# try:
-			# 	float(repr(item))
-			# 	self.listNum.append(item)
-			# 	print("added")
-			# except:
-			# 	self.listString.append(item)
-
 	def GetlistNum(self):
 		return self.listNum
 
